@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -34,5 +34,175 @@
   }
   to {
     transform: rotate(360deg);
+  }
+} */
+/* .name-container
+{
+ height: 100px;
+ width: 250px; 
+} */
+/* @media only screen and (min-width:600px) */
+.home-image
+{
+ width:100%;
+ max-height: 700px;
+ max-width: 500px;
+ padding: 100px;
+ margin-left: 200px;
+ margin-right: auto;
+}
+.portfolio-container
+{
+/* display:grid;
+height: 200px;
+width: 200px; 
+box-sizing: border-box;  */
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  box-sizing: border-box;
+}
+.row{
+  content: "";
+  clear: both;
+  display: table;
+  height: 100px;
+  width: 100px;
+  /* box-sizing: border-box; */
+  display: flex;
+}
+.story-image
+{
+ height: 400px;
+ /* height: 60vh; */
+ width: 500px;  
+ /* min-width:500px; */
+}
+
+.story-container
+{
+  /* padding: 100px; */
+  margin: 100px;
+  background: white; 
+  width: 500px;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow:rgb(0 0 0/4%) 0px 1px 11px 1px;
+  transition: 0.2s;
+}
+.story-container:hover
+{
+transform: scale(1.1);
+}
+.App
+{
+ display: flex;
+ justify-content: space-around; 
+}
+/* .menu-link
+{
+display:flex; 
+gap: 15px;
+justify-content: space-around;
+align-items: center;
+} */
+/* .home-container
+{
+/* display:inline-block; */
+/* } */ 
+.child-image
+{
+height: 200px;
+width: 200px;
+border-radius: 50%;
+/* margin: 50px; */
+}
+.home-container:hover
+{
+  transform: scale(1.1); 
+  border: solid 2px;  
+
+}
+.home-container,.child-image
+{
+display: flex;
+}
+.main-menu
+{
+display: flex;
+justify-content: space-around;  
+}
+.home-container
+{
+margin: 80px;  
+}
+.num-container
+{
+margin: 80px;
+color:cornflowerblue;
+}
+.num-container:hover
+{
+  transform: scale(1.1);
+  color:fuchsia;
+}
+.rhymes-container
+{
+margin: 100px;  
+}
+.rhymes-image
+{
+height:400px;
+width:100%;  
+}
+.num-chart
+{
+display: flex;  
+}
+@media only screen and (max-width: 480px) {
+  .story-name{
+    font-size:20px;
+     /* padding: 15px;
+     margin: 40px; */
+     margin-left:60px;
+  }
+  .story-image
+  {
+   /* width:400px;
+   padding: 10px;
+   margin: 10px; */
+   margin-left:50px;
+   width:370px;
+  }
+  .story-description
+  {
+   /* padding:10px;
+   margin: 50px;
+   width: 330px; */
+   margin-left:60px;
+   width:350px; 
+  }
+  .num-chart
+  {
+   width:285px;
+   object-fit: cover;
+  }
+  .nums
+  {
+   padding: 100px; 
+  }
+  .rhymes-name
+  {
+  margin-left: 200px;
+  }
+  .rhymes-image
+  {
+  margin-left: 200px;
+  object-fit: cover;  
+  width:380px;
+  }
+  .rhymes-video
+  {
+    /* width: 100%; */
   }
 }
