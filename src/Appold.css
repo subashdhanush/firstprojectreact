@@ -159,14 +159,7 @@ width:100%;
 {
 display: flex;  
 }
-.rhymes-video {
-  width: 100%;
-  height: 506px;
-}
 @media only screen and (max-width: 480px) {
-  .main-menu {
-    width: 100%;
-  }
   .story-name{
     font-size:20px;
      /* padding: 15px;
@@ -205,10 +198,12 @@ display: flex;
   }
   .rhymes-image
   {
+  /* margin-left: 200px; */
   object-fit: cover;  
   /* width:380px; */
   }
-  .rhymes-video {
+  .rhymes-video
+  {
     width: 100%;
   }
   .rhymes-container {

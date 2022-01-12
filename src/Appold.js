@@ -280,7 +280,8 @@ return(
    <h3 className='rhymes-name'>{str.rhymesname}</h3>
    <img src={str.rhymesimage}  className='rhymes-image'  alt="rhymes-image"/>
    {/* <h4>{str.youtube}</h4> */}
-   <iframe
+   <iframe width="759"
+     height="506" 
     src={str.youtube}
     class='rhymes-video'
     title="YouTube video player" 
